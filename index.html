@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- for search button -->
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+            <!-- for clear button -->
+            <button id="search" type="button" class="btn btn-secondary">Search</button>
+            <button id="clear" type="button" class="btn btn-secondary">Clear</button>
+        </div>
+        <!-- for searching term -->
+        <div class="input-group flex-nowrap">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="searchterm">Search term here!</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                aria-describedby="addon-wrapping">
+            </div>
+            <!-- for how many artivles person is looking for -->
+            <p> How many articles? </p>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="articlenumber"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    5
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                <!-- year start -->
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="startyear">Start Year</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
+                <!-- year end -->
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="endyear">End year (optional)</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
+
+            </div>
+</body>
+
+</html>
